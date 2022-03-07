@@ -1,0 +1,15 @@
+C:\Users\Tom\Documents\gb_study\c-sharp-homeworks\bin\Debug\net6.0\c-sharp-homeworks.exe
+C:\Users\Tom\Documents\gb_study\c-sharp-homeworks\bin\Debug\net6.0\c-sharp-homeworks.deps.json
+C:\Users\Tom\Documents\gb_study\c-sharp-homeworks\bin\Debug\net6.0\c-sharp-homeworks.runtimeconfig.json
+C:\Users\Tom\Documents\gb_study\c-sharp-homeworks\bin\Debug\net6.0\c-sharp-homeworks.dll
+C:\Users\Tom\Documents\gb_study\c-sharp-homeworks\bin\Debug\net6.0\c-sharp-homeworks.pdb
+C:\Users\Tom\Documents\gb_study\c-sharp-homeworks\obj\Debug\net6.0\c-sharp-homeworks.csproj.AssemblyReference.cache
+C:\Users\Tom\Documents\gb_study\c-sharp-homeworks\obj\Debug\net6.0\c-sharp-homeworks.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tom\Documents\gb_study\c-sharp-homeworks\obj\Debug\net6.0\c-sharp-homeworks.AssemblyInfoInputs.cache
+C:\Users\Tom\Documents\gb_study\c-sharp-homeworks\obj\Debug\net6.0\c-sharp-homeworks.AssemblyInfo.cs
+C:\Users\Tom\Documents\gb_study\c-sharp-homeworks\obj\Debug\net6.0\c-sharp-homeworks.csproj.CoreCompileInputs.cache
+C:\Users\Tom\Documents\gb_study\c-sharp-homeworks\obj\Debug\net6.0\c-sharp-homeworks.dll
+C:\Users\Tom\Documents\gb_study\c-sharp-homeworks\obj\Debug\net6.0\refint\c-sharp-homeworks.dll
+C:\Users\Tom\Documents\gb_study\c-sharp-homeworks\obj\Debug\net6.0\c-sharp-homeworks.pdb
+C:\Users\Tom\Documents\gb_study\c-sharp-homeworks\obj\Debug\net6.0\c-sharp-homeworks.genruntimeconfig.cache
+C:\Users\Tom\Documents\gb_study\c-sharp-homeworks\obj\Debug\net6.0\ref\c-sharp-homeworks.dll
