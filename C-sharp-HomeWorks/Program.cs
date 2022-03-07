@@ -1,15 +1,19 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
-System.Console.WriteLine("Вводи число");
-int numb1 = 13;
-int numb2 = 7;
+﻿using System;
+
+// Задача 1
+
+Console.WriteLine("Введите первое число");
+int numb1 = Convert.ToInt32 (Console.ReadLine());
+
+Console.WriteLine("Введите второе число");
+int numb2 = Convert.ToInt32 (Console.ReadLine());
+
 if(numb2 > numb1)
 
-    System.Console.Write("Большее число " + numb2); 
+    Console.Write("Большее число " + numb2); 
 
 else
-System.Console.Write("Большее число " + numb1);
 
-
+Console.Write("Большее число " + numb1);
 
 

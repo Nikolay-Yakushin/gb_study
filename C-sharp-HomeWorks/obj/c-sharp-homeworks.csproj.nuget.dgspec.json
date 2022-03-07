@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Tom\\Documents\\gb_study\\c-sharp-homeworks\\c-sharp-homeworks.csproj": {}
+    "C:\\Users\\Tom\\Documents\\gb_study\\C-sharp-HomeWorks\\c-sharp-homeworks.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Tom\\Documents\\gb_study\\c-sharp-homeworks\\c-sharp-homeworks.csproj": {
+    "C:\\Users\\Tom\\Documents\\gb_study\\C-sharp-HomeWorks\\c-sharp-homeworks.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tom\\Documents\\gb_study\\c-sharp-homeworks\\c-sharp-homeworks.csproj",
+        "projectUniqueName": "C:\\Users\\Tom\\Documents\\gb_study\\C-sharp-HomeWorks\\c-sharp-homeworks.csproj",
         "projectName": "c-sharp-homeworks",
-        "projectPath": "C:\\Users\\Tom\\Documents\\gb_study\\c-sharp-homeworks\\c-sharp-homeworks.csproj",
+        "projectPath": "C:\\Users\\Tom\\Documents\\gb_study\\C-sharp-HomeWorks\\c-sharp-homeworks.csproj",
         "packagesPath": "C:\\Users\\Tom\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tom\\Documents\\gb_study\\c-sharp-homeworks\\obj\\",
+        "outputPath": "C:\\Users\\Tom\\Documents\\gb_study\\C-sharp-HomeWorks\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Tom\\AppData\\Roaming\\NuGet\\NuGet.Config"
