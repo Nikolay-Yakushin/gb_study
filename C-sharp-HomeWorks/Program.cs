@@ -24,7 +24,7 @@ Console.Write("Большее число " + numb1 + " " + "Меньшее чи�
 
 
 // задача 2
-
+/*
 Console.WriteLine("Введите первое целое число из трёх");
 int numb1 = Convert.ToInt32(Console.ReadLine());
     Console.WriteLine("Введите второе целое число из трёх");
@@ -48,9 +48,22 @@ else
             Console.WriteLine("MAX = " + numb3);
         }    
     }
+*/
 
+// Задача 3
 
+Console.WriteLine("Введите целое число");
+int number = Convert.ToInt32(Console.ReadLine());
 
+if(number % 2 == 0)
+{
+    Console.WriteLine("Введенное число является четным. Ура!");
+
+}
+else
+{
+    Console.WriteLine("Введенно нечетное число.");
+}
 
 
    
