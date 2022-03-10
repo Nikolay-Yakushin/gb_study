@@ -52,19 +52,32 @@ else
 
 // Задача 3
 
+/*
 Console.WriteLine("Введите целое число");
 int number = Convert.ToInt32(Console.ReadLine());
 
 if(number % 2 == 0)
 {
-    Console.WriteLine("Введенное число является четным. Ура!");
+    Console.WriteLine("Введенное число является чётным. Ура!");
 
 }
 else
 {
-    Console.WriteLine("Введенно нечетное число.");
+    Console.WriteLine("Введенно нечётное число. :(");
 }
+*/
 
+// Задача 4
+
+Console.WriteLine("Введите целое число");
+int value = Convert.ToInt32(Console.ReadLine());
+int numb_ch = 2;
+
+while(numb_ch <= value)
+{
+    Console.Write(numb_ch + " ");
+    numb_ch+=2;
+}
 
    
 
