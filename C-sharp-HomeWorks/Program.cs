@@ -69,10 +69,17 @@ else
 
 // Задача 4
 
+
 Console.WriteLine("Введите целое число");
 int value = Convert.ToInt32(Console.ReadLine());
 int numb_ch = 2;
 
+if(value <= 1)
+{
+    Console.WriteLine("Ошибка, Введите другое число");
+} 
+else
+ 
 while(numb_ch <= value)
 {
     Console.Write(numb_ch + " ");
