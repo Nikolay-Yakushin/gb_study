@@ -69,7 +69,7 @@ else
 
 // Задача 4
 
-
+/*
 Console.WriteLine("Введите целое число");
 int value = Convert.ToInt32(Console.ReadLine());
 int numb_ch = 2;
@@ -79,16 +79,48 @@ if(value <= 1)
     Console.WriteLine("Ошибка, Введите другое число");
 } 
 else
- 
+
 while(numb_ch <= value)
 {
     Console.Write(numb_ch + " ");
     numb_ch+=2;
 }
 
-   
+*/
 
 
+ // Задача 10
+
+    int FindSecondNumber(int num)
+    {
+        int n1 = num / 100;
+        int n2 = num - n1*100;
+        int n3 = n2 / 10;
+
+        return n3;
+    }
+    
+Console.WriteLine("Введите целое трехзначное число");
+int value = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Вторая цифра равняется = " + FindSecondNumber(value));
+
+
+  // Задача 23
+
+/*
+Console.WriteLine("Введите целое число");
+int value = Convert.ToInt32(Console.ReadLine());
+
+int numb_ch = 1;
+ 
+while(numb_ch <= value)
+{
+    Console.Write(numb_ch*numb_ch*numb_ch + " ");
+    numb_ch++;
+} 
+
+*/
 
     
 
