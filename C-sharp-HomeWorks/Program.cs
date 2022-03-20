@@ -90,7 +90,7 @@ while(numb_ch <= value)
 
 
  // Задача 10
-
+/*
     int FindSecondNumber(int num)
     {
         int n1 = num / 100;
@@ -105,6 +105,54 @@ int value = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine("Вторая цифра равняется = " + FindSecondNumber(value));
 
+*/
+
+  // Задача 13
+/*
+int FindThirdNumber(int num)
+    {
+        int n1 = num / 1000;
+        int n2 = num % 1000;
+
+        if()
+    }
+    
+Console.WriteLine("Введите целое трехзначное число");
+int value = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Вторая цифра равняется = " + FindSecondNumber(value));
+
+*/
+
+
+  // Задача 15
+    
+    void FindWeekend(int num)
+{
+    if(num >= 6 && num <= 7)
+    {
+        Console.WriteLine("Введенное число соответствует выходному дню недели :)");
+    }
+    else
+    {
+        Console.WriteLine("Увы, это рабочий день :( ");
+    }
+}  
+
+Console.WriteLine("Введите число обозначающее день недели");
+int day = Convert.ToInt32(Console.ReadLine());
+
+    if(day > 7)
+    {
+        Console.WriteLine("Ошибка, в неделе 7 дней. Попробуйте еще раз");
+
+    }
+    else
+    {
+        FindWeekend(day);
+    }
+
+ 
 
   // Задача 23
 
