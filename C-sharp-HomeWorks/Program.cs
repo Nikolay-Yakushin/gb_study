@@ -108,25 +108,35 @@ Console.WriteLine("Вторая цифра равняется = " + FindSecondNu
 */
 
   // Задача 13
-/*
-int FindThirdNumber(int num)
-    {
-        int n1 = num / 1000;
-        int n2 = num % 1000;
 
-        if()
-    }
-    
-Console.WriteLine("Введите целое трехзначное число");
-int value = Convert.ToInt32(Console.ReadLine());
+ double num = 6476515;
+ double i = 1;
+ double a;
+ double b = num;
+ double c;
 
-Console.WriteLine("Вторая цифра равняется = " + FindSecondNumber(value));
+ while(b > 0)
+{
+    c = Math.Pow (10,i);
+    a = num % c;
+    b = num - a;
+  
+    i++;
+}
+  
+   double ber = num % Math.Pow(10,(i-3)) / Math.Pow(10,(i-4));
+ 
+  Console.WriteLine(ber);
 
-*/
+
+
+
+
+
 
 
   // Задача 15
-    
+ /*   
     void FindWeekend(int num)
 {
     if(num >= 6 && num <= 7)
@@ -152,11 +162,12 @@ int day = Convert.ToInt32(Console.ReadLine());
         FindWeekend(day);
     }
 
- 
+ */
 
-  // Задача 23
+  // Задача 23 эта задача не готова, написал до просмотра 3 семинара. 
+  
+ /*
 
-/*
 Console.WriteLine("Введите целое число");
 int value = Convert.ToInt32(Console.ReadLine());
 
