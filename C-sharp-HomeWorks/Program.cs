@@ -107,9 +107,10 @@ Console.WriteLine("Вторая цифра равняется = " + FindSecondNu
 
 */
 
-  // Задача 13
+  // Задача 13 (получилось криво, не знаю как уйти от части после запятой).
 
- double num = 6476515;
+/*
+ double num = 6472515;
  double i = 1;
  double a;
  double b = num;
@@ -125,14 +126,10 @@ Console.WriteLine("Вторая цифра равняется = " + FindSecondNu
 }
   
    double ber = num % Math.Pow(10,(i-3)) / Math.Pow(10,(i-4));
- 
-  Console.WriteLine(ber);
+ int bear = Convert.ToInt32(ber);
+  Console.WriteLine(bear);
 
-
-
-
-
-
+*/  
 
 
   // Задача 15
@@ -164,7 +161,7 @@ int day = Convert.ToInt32(Console.ReadLine());
 
  */
 
-  // Задача 23 эта задача не готова, написал до просмотра 3 семинара. 
+  // Задача 23 
   
  /*
 
@@ -175,7 +172,7 @@ int numb_ch = 1;
  
 while(numb_ch <= value)
 {
-    Console.Write(numb_ch*numb_ch*numb_ch + " ");
+    Console.Write(Math.Pow(numb_ch, 3) + " ");
     numb_ch++;
 } 
 
