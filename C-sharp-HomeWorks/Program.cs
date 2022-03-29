@@ -161,6 +161,86 @@ int day = Convert.ToInt32(Console.ReadLine());
 
  */
 
+
+    // Задача 19
+/*
+
+    Console.WriteLine("Введите пятизначное число");
+    int number = Convert.ToInt32(Console.ReadLine());
+ 
+    int a = (number % 10 - number % 1) / 1;
+    Console.WriteLine("5 numb = " + a);
+
+    int b = (number % 100 - number % 10) / 10;
+    Console.WriteLine("4 numb = " + b);
+
+    int c = (number % 10000 - number % 1000) / 1000;
+    Console.WriteLine("2 numb = " + c);
+
+    int d = (number % 100000 - number % 10000) / 10000;
+    Console.WriteLine("1 numb = " + d);
+
+   while (i < 100000)
+{
+        int numb(i) = (number % (10*i) - number % i) / i;
+        Console.WriteLine( i + " numb = " + numb(i));
+
+        i = i * 10;
+}
+
+    if ( a == d && b == c)
+    {
+        Console.WriteLine("Число является палиндромом");
+    }
+
+    else 
+    {
+        Console.WriteLine("oh NO");
+    }    
+
+ */ 
+
+    // Задача 21
+
+    double GetDistance(double x1, double y1, double z1, double x2, double y2, double z2)
+
+    {
+        double xDistance = x2 - x1;
+        double yDistance = y2 - y1;
+        double zDistance = z2 - z1;
+        
+
+          //  Console.WriteLine("x dis = " + xDistance); для проверки
+          //  Console.WriteLine("y dis = " + yDistance);
+          //  Console.WriteLine("z dis = " + zDistance);
+
+        
+        double result = Math.Sqrt(Math.Pow(xDistance,2) + Math.Pow(yDistance,2) + Math.Pow(zDistance,2));
+        return result;
+
+    }
+
+    double xA, yA, zA, xB, yB, zB;
+
+    Console.WriteLine("Введите данные точки А - Х");
+        xA = Convert.ToDouble(Console.ReadLine());
+    Console.WriteLine("Введите данные точки А - Y");
+        yA = Convert.ToDouble(Console.ReadLine());
+    Console.WriteLine("Введите данные точки A - Z");
+        zA = Convert.ToDouble(Console.ReadLine());
+    Console.WriteLine("Введите данные точки B - X");
+        xB = Convert.ToDouble(Console.ReadLine());
+    Console.WriteLine("Введите данные точки B - Y");
+        yB = Convert.ToDouble(Console.ReadLine());
+    Console.WriteLine("Введите данные точки B - Z");
+        zB = Convert.ToDouble(Console.ReadLine());
+
+        
+
+    Console.WriteLine(GetDistance(xA, yA, zA, xB, yB, zB));
+
+    
+
   // Задача 23 
   
  /*
