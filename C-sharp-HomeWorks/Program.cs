@@ -266,6 +266,23 @@ while(numb_ch <= value)
 */
 
     
+    // Задача 1: Напишите цикл, который принимает на вход два числа (A и B) и возводит число A в натуральную степень B.
+
+
+Console.WriteLine("Введите первое целое число");
+int value1 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите второе целое число");
+int value2 = Convert.ToInt32(Console.ReadLine());
+    int step = 0;
+    int result = 1;
+
+    while( step < value2)
+    {
+        result = result * value1; step++;
+
+    }
+        Console.WriteLine(result);
+
 
 
     
