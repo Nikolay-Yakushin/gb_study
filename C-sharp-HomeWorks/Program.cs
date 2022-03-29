@@ -163,46 +163,53 @@ int day = Convert.ToInt32(Console.ReadLine());
 
 
     // Задача 19
-/*
+
+    /*
 
     Console.WriteLine("Введите пятизначное число");
     int number = Convert.ToInt32(Console.ReadLine());
  
     int a = (number % 10 - number % 1) / 1;
-    Console.WriteLine("5 numb = " + a);
+   // Console.WriteLine("5 numb = " + a);
 
     int b = (number % 100 - number % 10) / 10;
-    Console.WriteLine("4 numb = " + b);
+   // Console.WriteLine("4 numb = " + b);
 
     int c = (number % 10000 - number % 1000) / 1000;
-    Console.WriteLine("2 numb = " + c);
+   // Console.WriteLine("2 numb = " + c);
 
     int d = (number % 100000 - number % 10000) / 10000;
-    Console.WriteLine("1 numb = " + d);
+   // Console.WriteLine("1 numb = " + d);
 
-   while (i < 100000)
+    
+    if ( a == d && b == c)
+        {
+            Console.WriteLine("Число является палиндромом");
+        }
+
+        else 
+        {
+            Console.WriteLine("oh NO");
+        }    
+*/
+
+
+// попытка создать массив из цифр составляющих число из задачи 19. Орфографии не хватает
+
+  /* while (i < 100000)
 {
         int numb(i) = (number % (10*i) - number % i) / i;
         Console.WriteLine( i + " numb = " + numb(i));
 
         i = i * 10;
 }
-
-    if ( a == d && b == c)
-    {
-        Console.WriteLine("Число является палиндромом");
-    }
-
-    else 
-    {
-        Console.WriteLine("oh NO");
-    }    
-
- */ 
+*/
+    
+ 
 
     // Задача 21
 
-    double GetDistance(double x1, double y1, double z1, double x2, double y2, double z2)
+ /*   double GetDistance(double x1, double y1, double z1, double x2, double y2, double z2)
 
     {
         double xDistance = x2 - x1;
@@ -239,7 +246,7 @@ int day = Convert.ToInt32(Console.ReadLine());
 
     Console.WriteLine(GetDistance(xA, yA, zA, xB, yB, zB));
 
-    
+ */   
 
   // Задача 23 
   
