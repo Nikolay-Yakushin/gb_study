@@ -297,7 +297,7 @@ else Console.WriteLine("Ошибка, необходимо ввести нату
 
 // Задача 2: Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе.
 
-
+/*
 int SummaNums(int value)
 {
     int result = 0;
@@ -310,7 +310,7 @@ int SummaNums(int value)
     return result;
 }
 
-Console.WriteLine("Введите целое число A");
+Console.WriteLine("Введите целое число ");
 int numberA = Convert.ToInt32(Console.ReadLine());
 
 if(numberA < 0)
@@ -323,8 +323,24 @@ else
 
     Console.WriteLine("Сумма цифр, составляющих число " + numberA + ", равна " + SummaNums(numberA));
 
+*/
 
+// Задача 3: Напишите программу, которая задаёт массив из 8 элементов и выводит их на экран.
 
+void numArray(int index)
+{
+    int[] a = new int[index];
+    for(int i=0; i<index; i++)
+    {
+        a[i] = new Random().Next(0,99);
+        Console.Write(a[i] + " ");
+    }
+} 
+
+Console.WriteLine("Задайте количество чисел в массиве ");
+int value = Convert.ToInt32(Console.ReadLine());
+
+numArray(value);
 
 
 
