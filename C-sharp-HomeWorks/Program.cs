@@ -269,7 +269,7 @@ while(numb_ch <= value)
     // Задача 1: Напишите цикл, который принимает на вход два числа (A и B) и возводит число A в натуральную степень B.
 
 
-
+/*
     int mathDegree(int value1, int value2)
     {
         int result = 1;
@@ -291,6 +291,38 @@ if ( numberA >= 0 && numberB >= 0)
     Console.WriteLine("Число " + numberA + " возведенное в степень " + numberB + " равно " + mathDegree(numberA, numberB));
 }
 else Console.WriteLine("Ошибка, необходимо ввести натуральные числа");
+
+*/
+
+
+// Задача 2: Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе.
+
+
+int SummaNums(int value)
+{
+    int result = 0;
+    for(int i = 1; value >= 1; i++)
+    {
+        int remain = value % 10;
+        value = (value - remain) / 10;
+        result = result + remain;
+    }
+    return result;
+}
+
+Console.WriteLine("Введите целое число A");
+int numberA = Convert.ToInt32(Console.ReadLine());
+
+if(numberA < 0)
+{ 
+    numberA = Math.Abs(numberA);
+    Console.WriteLine("Сумма цифр, составляющих число -" + numberA + ", равна " + SummaNums(numberA));
+}
+
+else
+
+    Console.WriteLine("Сумма цифр, составляющих число " + numberA + ", равна " + SummaNums(numberA));
+
 
 
 
