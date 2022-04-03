@@ -321,12 +321,14 @@ if(numberA < 0)
 
 else
 
-    Console.WriteLine("Сумма цифр, составляющих число " + numberA + ", равна " + SummaNums(numberA));
+    Console.WriteLine($"Сумма цифр, составляющих число {numberA}, равна {SummaNums(numberA)}");
 
 */
 
+
 // Задача 3: Напишите программу, которая задаёт массив из 8 элементов и выводит их на экран.
 
+/*
 void numArray(int index)
 {
     int[] a = new int[index];
@@ -342,9 +344,33 @@ int value = Convert.ToInt32(Console.ReadLine());
 
 numArray(value);
 
+*/
+
+// Задача 1: Задайте массив заполненный случайными положительными трёхзначными числами. 
+// Напишите программу, которая покажет количество чётных чисел в массиве.
 
 
+void numArray(int index)
+{
+    int[] a = new int[index];
+    int sumchet = 0;
+    for(int i=0; i<index; i++)
+    {
+        a[i] = new Random().Next(100,999);
+        Console.Write(a[i] + " ");
+        if(a[i] % 2 == 0)
+        {
+            sumchet = sumchet + 1;
+        }
+    }
+    Console.WriteLine(" ");
+    Console.WriteLine($"В сформированном массиве чётных чисел {sumchet}");
+} 
 
+Console.WriteLine("Задайте количество чисел в массиве ");
+int value = Convert.ToInt32(Console.ReadLine());
+
+numArray(value);
 
     
 
