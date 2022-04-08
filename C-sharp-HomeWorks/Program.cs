@@ -407,6 +407,7 @@ Console.WriteLine("Сумма нечётных элементов массива
        double[] a = new double [index];
        double  MaxNum = 0.0;
        double  MinNum = 0.0;
+       double delta = 0.0;
        for(int i=0; i<index; i++)
        {
            a[i] = new Random().Next(-99,99);
@@ -419,10 +420,11 @@ Console.WriteLine("Сумма нечётных элементов массива
            {
                MinNum = a[i];
            }
-
+            delta = MaxNum - MinNum; 
        }
         Console.WriteLine(" ");
         Console.WriteLine($"Max число в массиве = {MaxNum}  Min число в массиве = {MinNum}");
+        Console.WriteLine($"Разница между максимальным и минимальным числом массива = {delta}");
    } 
 
 Console.WriteLine("Задайте количество чисел в массиве ");
