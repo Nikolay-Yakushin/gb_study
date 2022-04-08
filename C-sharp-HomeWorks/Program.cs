@@ -374,7 +374,7 @@ numArray(value);
 */
 
 // Задача 2: Задайте одномерный массив, заполненный случайными числами. Найдите сумму элементов, стоящих на нечётных позициях.
-
+/*
 int datArray(int index)
 {
     int[] a = new int[index];
@@ -396,12 +396,38 @@ Console.WriteLine("Задайте количество чисел в масси�
 int value = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine("Сумма нечётных элементов массива = " + datArray(value));
-
+*/
 
 
 // Задача 3: Задайте массив вещественных чисел. Найдите разницу между максимальным и минимальным элементов массива.
-    
 
 
+   void NewArray(int index)
+   {
+       double[] a = new double [index];
+       double  MaxNum = 0.0;
+       double  MinNum = 0.0;
+       for(int i=0; i<index; i++)
+       {
+           a[i] = new Random().Next(-99,99);
+           Console.Write(a[i] + "|");
+           if(a[i] > MaxNum)
+           {
+               MaxNum = a[i];
+           }
+           if(a[i] < MinNum)
+           {
+               MinNum = a[i];
+           }
+
+       }
+        Console.WriteLine(" ");
+        Console.WriteLine($"Max число в массиве = {MaxNum}  Min число в массиве = {MinNum}");
+   } 
+
+Console.WriteLine("Задайте количество чисел в массиве ");
+int value = Convert.ToInt32(Console.ReadLine());
+
+NewArray(value);
 
 
