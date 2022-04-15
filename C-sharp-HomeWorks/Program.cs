@@ -401,7 +401,7 @@ Console.WriteLine("Сумма нечётных элементов массива
 
 // Задача 3: Задайте массив вещественных чисел. Найдите разницу между максимальным и минимальным элементов массива.
 
-
+/*
    void NewArray(int index)
    {
        double[] a = new double [index];
@@ -424,7 +424,7 @@ Console.WriteLine("Сумма нечётных элементов массива
        }
         Console.WriteLine(" ");
         Console.WriteLine($"Max число в массиве = {MaxNum}  Min число в массиве = {MinNum}");
-        Console.WriteLine($"Разница между максимальным и минимальным числом массива = {delta}");
+        Console.WriteLine("Разница между максимальным и минимальным числом массива = Х
    } 
 
 Console.WriteLine("Задайте количество чисел в массиве ");
@@ -432,4 +432,35 @@ int value = Convert.ToInt32(Console.ReadLine());
 
 NewArray(value);
 
+*/
 
+
+
+// Задача 1: Пользователь вводит с клавиатуры M чисел. Посчитайте, сколько чисел больше 0 ввёл пользователь.
+
+
+
+
+// Задача 2: Пользователь вводит с клавиатуры кол-во строк и столбцов для массива. 
+// Вывести массив в виде матрицы, создав "рамку" из единиц, а внутреннюю зону матрицы заполнить нулями.
+
+
+Console.WriteLine("Задайте количество строк в массиве ");
+int row = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Задайте количество столбцов в массиве ");
+int column = Convert.ToInt32(Console.ReadLine());
+
+int[,] matrix = new int[row,column];
+
+for(int i = 0; i < row; i++)
+{ 
+    for(int j = 0; j < column; j++)
+    {
+        if( j <= 0 || j >= (column-1) || i <= 0 || i >= (row-1) )
+
+        matrix[i,j] = 1;
+     
+        Console.Write($"{matrix[i,j]} ");
+    }
+Console.WriteLine();    
+}
