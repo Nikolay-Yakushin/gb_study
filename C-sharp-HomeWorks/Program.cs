@@ -438,13 +438,31 @@ NewArray(value);
 
 // Задача 1: Пользователь вводит с клавиатуры M чисел. Посчитайте, сколько чисел больше 0 ввёл пользователь.
 
+Console.WriteLine("Задайте количество чисел в массиве ");
+int value = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Заполните массив");
+
+int[] a = new int[value];
+int count = 0;
+for(int i=0; i<value; i++)
+{
+    a[i] = Convert.ToInt32(Console.ReadLine());
+            
+    if(a[i] > 0)
+    {
+       count = count + 1;
+    }   
+}
+Console.WriteLine($"Чисел больше ноля {count}");
+ 
+
 
 
 
 // Задача 2: Пользователь вводит с клавиатуры кол-во строк и столбцов для массива. 
 // Вывести массив в виде матрицы, создав "рамку" из единиц, а внутреннюю зону матрицы заполнить нулями.
 
-
+/*
 Console.WriteLine("Задайте количество строк в массиве ");
 int row = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Задайте количество столбцов в массиве ");
@@ -456,7 +474,7 @@ for(int i = 0; i < row; i++)
 { 
     for(int j = 0; j < column; j++)
     {
-        if( j <= 0 || j >= (column-1) || i <= 0 || i >= (row-1) )
+        if(j <= 0 || j >= (column-1) || i <= 0 || i >= (row-1))
 
         matrix[i,j] = 1;
      
@@ -464,3 +482,4 @@ for(int i = 0; i < row; i++)
     }
 Console.WriteLine();    
 }
+*/
